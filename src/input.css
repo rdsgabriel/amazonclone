@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.item-nav-inf{
+    @apply hover:text-orange-650 border-b-2 border-transparent hover:border-orange-650 py-1 px-3;
+}
+
+.list-main{
+    @apply text-gray-800 hover:text-orange-650 mb-0.5 tracking-wide
+}
